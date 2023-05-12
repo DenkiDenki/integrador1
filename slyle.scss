@@ -1,0 +1,9 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+.navbar a,
+.navbar-brand span h1 {
+  color: white;
+}
+
+.carousel-item img {
+  height: 62.5%;
+}
