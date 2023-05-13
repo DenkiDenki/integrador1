@@ -13414,4 +13414,8 @@ textarea.form-control-lg {
 
 .footer-desk div {
   width: 14%;
+}
+
+.carousel-item {
+  max-height: 600px !important;
 }/*# sourceMappingURL=slyle.css.map */
