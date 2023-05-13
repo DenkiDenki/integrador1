@@ -13,3 +13,11 @@
 .carousel-item {
   max-height: 600px !important;
 }
+
+.carousel-item img {
+  filter: brightness(0.4);
+}
+.carousel-caption {
+  width: 30%;
+  margin-left: auto;
+}
