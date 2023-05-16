@@ -1,5 +1,29 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.3"
-  }
+  },
+  "name": "integrador1",
+  "version": "1.0.0",
+  "description": "maqueta landing page html, css, bootstrap, js",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenkiDenki/integrador1.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "bootstrap",
+    "js"
+  ],
+  "author": "Denisa Gerez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenkiDenki/integrador1/issues"
+  },
+  "homepage": "https://github.com/DenkiDenki/integrador1#readme"
 }
