@@ -1,7 +1,14 @@
-@import "node_modules/bootstrap/scss/bootstrap.scss";
-:root {
-  --verde-claro: #96c93e;
-}
+// Required
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+$custom-colors: (
+  "verdeclaro": rgb(147, 203, 60),
+);
+//merge the
+$theme-colors: map-merge($theme-colors, $custom-colors);
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 .submit-btn {
   background: solid var(--verde-claro) !important;
@@ -11,7 +18,10 @@
 .navbar-brand span h1 {
   color: white;
 }
-
+.navbar a:hover {
+  color: rgb(221, 221, 221);
+  text-decoration: underline;
+}
 .carousel-item img {
   height: 62.5%;
 }
@@ -27,11 +37,6 @@
 }
 
 /* formulario entradas descuentos*/
-.color-box {
-  width: 300px;
-  height: 300px;
-  margin: 5px !important;
-}
 
 @media only screen and (min-width: 1440px) {
   #oradores img {

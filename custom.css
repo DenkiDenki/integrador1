@@ -1,0 +1,7 @@
+.color-box {
+  width: 200px;
+  height: 200px;
+  margin: 5px !important;
+  border: 2px solid blue;
+  padding: 20px;
+}
